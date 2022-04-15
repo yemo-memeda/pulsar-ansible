@@ -13,12 +13,12 @@ apachePulsarUserId: 9000
 apachePulsarVersion: 2.4.0
 apachePulsarTarLocation: "/home/apachePulsar/packages/apache-pulsar-{{ apachePulsarVersion }}-bin.tar.gz"
 
-zookeeperHome: /export/servers/zookeeper
+zookeeperHome: /data/servers/zookeeper
 
 # below will be used while decommission/downgrade only
-apachePulsarOldVersion: 2.3.0
+apachePulsarOldVersion: 2.4.0
 
-apachePulsarInstallDir: /export/pulsar
+apachePulsarInstallDir: /data/pulsar
 apachePulsarHome: "{{ apachePulsarInstallDir }}/apache-pulsar"
 apachePulsarJournalDataDir: "{{ apachePulsarInstallDir }}/apachePulsar-data-journal"
 apachePulsarLedgerDataDir: "{{ apachePulsarInstallDir }}/apachePulsar-data-ledger"
